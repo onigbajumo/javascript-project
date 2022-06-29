@@ -1,0 +1,89 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(30, 89, 178);
+    text-align: center;
+    height: 100vh;
+}
+
+p{
+    font-size: 1.0rem;
+    line-height: 1.5;
+
+}
+
+header{
+    color: white;
+    padding-bottom: 3rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1;
+}
+
+header h1 span{
+    font-weight: 700;
+}
+
+button{
+    outline: none;
+    border-radius: 3px;
+    padding: 8px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: all .3s;
+}
+
+button:hover{
+    background-color: red;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: none;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+   
+
+}
+
+.modal-content{
+    max-width: 40rem;
+    background-color: #eee;
+    margin: 7% auto;
+    padding: 2rem;
+    position: relative;
+    animation: slide ease .8s;
+    
+}
+
+@keyframes slide{
+    0% {
+        transform: translateY(-30);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.close{
+    position: fixed;
+    font-size: 1.5rem;
+    cursor: pointer;
+    /* top: 0; */
+
+}
+

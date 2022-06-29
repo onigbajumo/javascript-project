@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+   
+}
+.container{
+    background-color: white;
+    max-width: 30rem;
+    padding: 4rem;
+    border-radius: 4px;
+}
+
+input{
+    /* width: 70%; */
+    outline: none;
+    border: none;
+    border-bottom: 2px solid orangered;
+    padding: .5rem .2rem ;
+}
+
+.check{
+    /* width: 25%; */
+    margin-top: 15px;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+
+}
+
+.result{
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* text-align: center; */
+}
